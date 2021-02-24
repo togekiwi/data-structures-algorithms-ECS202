@@ -197,4 +197,4 @@ Based on Divide-and-Conquer.
 
 1. Worst Case: When the list is already sorted. The algorithm required (n - i) comparisons to confirm that i'th element is at its correct position. So, the time complexity is O(n^2)
 
-2. Average Case: At the k'th division of sublists, 2^(k-1) elements are correctly placed. So, there are log2(n) reductions. So, as each reduction makes atmost n comparisons then, the time complexity is O(n log n)
+2. Average Case: At the kth division of sublists, 2^(k-1) elements are correctly placed. So, there are log2(n) reductions. So, as each reduction makes atmost n comparisons then, the time complexity is O(n log n)
